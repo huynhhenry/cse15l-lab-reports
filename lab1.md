@@ -6,10 +6,11 @@
     [user@sahara ~/lecture1/messages] cd en-us.txt
     bash: cd: en-us.txt: Not a directory
 The working directory when each command was ran was in this order,
-1) /home
-2) /home
-3) /home/lecture1
-4) /home/lecture1/messages
+( <br> )
+1) \home  
+2) \home  
+3) \home\lecture1  
+4) \home\lecture1\messages  
    
 The next line after changing directories gave us the result of my command, showing where I was
 in the directory. In this case the **cd** command worked as intended until trying to change directories 
