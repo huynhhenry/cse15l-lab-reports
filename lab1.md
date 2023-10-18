@@ -6,7 +6,7 @@
     [user@sahara ~/lecture1/messages] cd en-us.txt
     bash: cd: en-us.txt: Not a directory
 The working directory when each command was ran was in this order,
-( <br> )
+<br> 
 1) \home  
 2) \home  
 3) \home\lecture1  
