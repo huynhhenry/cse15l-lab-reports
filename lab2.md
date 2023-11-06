@@ -18,8 +18,10 @@ stringFormat takes an arrayList type and formats it to the desired output, being
 2. How are you
 num now has the value 2, and stringFormat removes the +'s that comes from the %20 when you have spaces in the url and changes them with spaces to give us the desiered output. ArrayList messages has two elements as well now.
 
-![image](https://i.imgur.com/peDS7Ld.png) 
-
 ![image](https://i.imgur.com/KYAr0vt.png)
 
 ![image](https://i.imgur.com/JW8tNCM.png)
+
+![image](https://i.imgur.com/HLs3eLX.png)
+
+Before week 2 and week 3, I did not know how to open and start a server using the terminal. As well as what private/public keys are. I now also know how to access a remote computer using the ssh protocol which seems very useful. Everything in this course feels very practical. 
