@@ -59,7 +59,9 @@ this is much more narrow and we know exactly what we want including the case sen
 This last section of the command in where we add and "^" at the beginning of the string. It signifies a new line so any line that starts with introduction.   
 However as we can see, it doesnt work on this library, for the reason that none of the text files start with letters but rather indents. 
 So after I edited the file to remove the indent from the first line, it shows the file that I edited with introduction as a start of a line. 
-Because all of the text files started with indents, so even if all the files started with "In
+
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+This website is what I used to find basic information on grep. The man command was too hard to read, and this website had it esaily readable. It was on the first page of google. 
 
 
 
