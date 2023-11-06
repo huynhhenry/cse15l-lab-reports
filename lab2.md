@@ -13,7 +13,8 @@ Which was decided by the url input.
 ![image](https://i.imgur.com/olZrYOT.png)
 he methods handleRequest and stringFormat were used.   
 The relevant arguements for handleRequest is URI url which is the url that the server is on. On this server since it is a website, the url can change with a query. https://0-0-0-0-4000-ubn7ro3eha0k04di773cbblivk.us.edusercontent.com/add-message?s=How%20are%20you is the website in the picture. "messages" inside the method has two values now because it is the second time it is called with a query.
-stringFormat takes an arrayList type and formats it to the desired output, being
+stringFormat takes an arrayList type and formats it to the desired output, being  
+
 1. Hello
 2. How are you
 num now has the value 2, and stringFormat removes the +'s that comes from the %20 when you have spaces in the url and changes them with spaces to give us the desiered output. ArrayList messages has two elements as well now.
