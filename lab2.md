@@ -8,7 +8,7 @@ Code
 The methods handleRequest and stringFormat were used.   
 The relevant arguements for handleRequest is URI url which is the url that the server is on. On this server since it is a website, the url can change with a query. https://0-0-0-0-4000-ubn7ro3eha0k04di773cbblivk.us.edusercontent.com/add-message?s=Hello is the website in the picture. 
 stringFormat takes an arrayList type and formats it to the the desiered output, being 
-1. Hello
+1. Hello   
 Which was decided by the url input. 
 ![image](https://i.imgur.com/olZrYOT.png)
 he methods handleRequest and stringFormat were used.   
