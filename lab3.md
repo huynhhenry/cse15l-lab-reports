@@ -56,12 +56,11 @@ were not in any of the files which is a bit surprising.  The -c option in the gr
 This addition -w finds the exact string, so in the case there was none of "Superman" but alot of "Mary", almost the exact oposite of -i,    
 this is much more narrow and we know exactly what we want including the case sensitivity and separated by spaces.
 
-![image](https://i.imgur.com/FyEOM1b.png)
-This last section of the command in where we add and "^" at the beginning of the string. It signifies a new line so any line that starts with introduction.   
-However as we can see, it doesnt work on this library, for the reason that none of the text files start with letters but rather indents. 
-So after I edited the file to remove the indent from the first line, it shows the file that I edited with introduction as a start of a line. 
+![image](https://i.imgur.com/fp6boYF.png)     
+     
+It signifies a new line so any line that This command attempts to search for lines containing "henry" or "huynh" in all files under the technical directory and its subdirectories. However, it encounters directories, and that's why it outputs errors. The second time it was empty because there was none in the nested directories. For the last command usage, it found "research project" and "motorcycle" inside the biomed area. The command grep -e "string" and -e "string" finds those two in any lines. 
       
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/     
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/         
 This website is what I used to find basic information on grep. The man command was too hard to read, and this website had it esaily readable. It was on the first page of google. 
 
 All sources from screenshots, are my own, not sure how to provide the source?
