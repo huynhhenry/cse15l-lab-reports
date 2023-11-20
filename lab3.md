@@ -40,7 +40,7 @@ Here is the method after fixing the bug.
 The problem with the reversed method was that it was copying the arrays the wrong way.   
 The fix, addressed the issue because now it properly copies the array the correct way to be reveresed. 
 
-![iamge](https://i.imgur.com/ouMhHnc.png)
+![image](https://i.imgur.com/ouMhHnc.png)
 ![image](https://i.imgur.com/mVHMWwG.png)    
 Here is two uses of -i which gives us the option to be case insensitive for the string we search for with grep. 
 Very useful becasue sometimes words are at the beginning of sentences and are capitalized.   
