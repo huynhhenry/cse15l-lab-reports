@@ -53,8 +53,7 @@ were not in any of the files which is a bit surprising.  The -c option in the gr
 
 ![image](https://i.imgur.com/gYVVEBU.png)
 ![image](https://i.imgur.com/SdQcS8W.png)      
-This addition -w finds the exact string, so in the case there was none of "Superman" but alot of "Mary", almost the exact oposite of -i,    
-this is much more narrow and we know exactly what we want including the case sensitivity and separated by spaces.
+This addition -w finds the exact string, so in the case there was none of "Superman" but alot of "Mary", almost the exact oposite of -i, this is much more narrow and we know exactly what we want including the case sensitivity and separated by spaces.
 
 ![image](https://i.imgur.com/fp6boYF.png)     
      
