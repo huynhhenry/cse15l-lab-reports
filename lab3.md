@@ -52,7 +52,7 @@ This is the addition to the command -c which counts how many times the string is
 were not in any of the files which is a bit surprising.  The -c option in the grep command is useful because it allows users to quickly obtain a count of the number of lines that match a specified pattern in a file. Goves is a summary of occurances, and can help us find patterns, when the count is the important part. 
 
 ![image](https://i.imgur.com/gYVVEBU.png)
-![image](https://i.imgur.com/SdQcS8W.png)
+![image](https://i.imgur.com/SdQcS8W.png)      
 This addition -w finds the exact string, so in the case there was none of "Superman" but alot of "Mary", almost the exact oposite of -i,    
 this is much more narrow and we know exactly what we want including the case sensitivity and separated by spaces.
 
