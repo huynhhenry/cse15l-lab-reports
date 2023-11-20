@@ -49,7 +49,7 @@ Very useful becasue sometimes words are at the beginning of sentences and are ca
 ![image](https://i.imgur.com/EGWIIss.png)
 ![image](https://github.com/huynhhenry/cse15l-lab-reports/assets/146884910/eb3c465c-d460-4d3f-85a6-b4fe1ae00040)    
 This is the addition to the command -c which counts how many times the string is findable. In both cases "henry" and "mixtape"   
-were not in any of the files which is a bit surprising. 
+were not in any of the files which is a bit surprising.  The -c option in the grep command is useful because it allows users to quickly obtain a count of the number of lines that match a specified pattern in a file. Goves is a summary of occurances, and can help us find patterns, when the count is the important part. 
 
 ![image](https://i.imgur.com/gYVVEBU.png)
 ![image](https://i.imgur.com/SdQcS8W.png)
@@ -60,9 +60,10 @@ this is much more narrow and we know exactly what we want including the case sen
 This last section of the command in where we add and "^" at the beginning of the string. It signifies a new line so any line that starts with introduction.   
 However as we can see, it doesnt work on this library, for the reason that none of the text files start with letters but rather indents. 
 So after I edited the file to remove the indent from the first line, it shows the file that I edited with introduction as a start of a line. 
-
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+      
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/     
 This website is what I used to find basic information on grep. The man command was too hard to read, and this website had it esaily readable. It was on the first page of google. 
 
+All sources from screenshots, are my own, not sure how to provide the source?
 
 
