@@ -10,10 +10,11 @@
     public void testAverageWithoutLowest() {
       double[] input = { 3.0, 1.0, 2.0, 4.0, 5.0 };
       double expected = 3.5;
-      
+
       double result = ArrayExamples.averageWithoutLowest(input);
       assertEquals(expected, result, 0.001);
     }
+
 
 ![image](https://i.imgur.com/Cw5ww8u.png)
 ![image](https://i.imgur.com/n8kUP9O.png)
@@ -26,7 +27,7 @@ Since reversed has the bug that we identified with the Junit test here it is bef
           arr[i] = newArray[arr.length - i - 1];
         }
         return arr;
-    }
+    }     
     
 Here is the method after fixing the bug.    
 
